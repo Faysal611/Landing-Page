@@ -1,7 +1,8 @@
 .header {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
+    
 }
 
 .header_text {
@@ -13,8 +14,110 @@
 .logo {
     flex-grow: 1;
     width: 150px;
+    margin-left: 8px;
 }
 
 body {
     background-color: #1F2937;
 }
+
+
+.landscape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    
+}
+
+.landscape_item {
+    color: white;
+}
+
+.landscape_button {
+    background-color: rgb(10, 116, 255);
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 15px;
+    font-family: Georgia;
+    padding: 10px;
+}
+
+.landscape_p {
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 10;
+}
+
+.landscape_h1 {
+    font-size: 65px;
+    font-family: Rowdies;
+    margin: 0px;
+}
+
+.landscape_image {
+    margin-right: 5px;
+}
+
+.boxes {
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+    font-size: 30px;
+}
+
+.boxes_h1 {
+    margin-left: 440px;
+    font-size: 50px;
+    color: black;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6c7c9;
+    height: 500px;
+}
+
+.quote_text {
+    font-size: 40px;
+}
+
+.author {
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 1000px;
+}
+
+.main_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: white;
+}
+
+.sub_c {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 50px; 
+    background-color: rgb(10, 116, 255);
+}
+
+.hover1:hover {
+    background-color: white;
+    font-size: 30px;
+    border: 5px solid rgb(10, 116, 255);
+    border-radius: 15px;
+    font-family: Georgia;
+    padding: 10px;
+    transition-duration: 0.3s;
+    color: rgb(10, 116, 255);
+}
+
